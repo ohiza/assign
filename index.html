@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+<header>
+    <section class="logo">
+        <div class="logo">
+            <img src="asset/logo.png" alt="logo">
+        </div>
+    </section>
+    <nav>
+        <ul class="nav-link">
+            <li>
+                <a href="#">Download</a>
+            </li>
+            <li>
+                <a href="#">Learn more</a>
+            </li>
+            <li>
+                <a href="#">Pricing</a>
+            </li>
+            <li>
+                <a href="#">Help</a>
+            </li>
+            <li>
+                <a class="cta" href="#">
+                    <button>Account</button>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="checkoutPage">
+        <h2>Checkout</h2>
+        <div class="basicInfo">
+            <form action="" method="post">
+                <div class="formGroup">
+                    <div>
+                        <section class="titleGroup">
+                            <div class="circle">1</div>
+                            <p class="title">Your Basic Information</p>
+                        </section>
+                        <section class="FormSection">
+                            <p class="inner-content">
+                                <label for="firstName">First Name</label>
+                                <input type="text"
+                                       name="firstName"
+                                       id="firstName"
+                                       placeholder="Jane">
+                            </p>
+
+                            <p class="inner-content">
+                                <label for="lastName">Last Name</label>
+                                <input type="text"
+                                       name="lastName"
+                                       id="lastName"
+                                       placeholder="Doe">
+                            </p>
+
+                            <p class="inner-content">
+                                <label for="email">E-mail</label>
+                                <input type="email"
+                                       name="email"
+                                       id="email"
+                                       placeholder="janedoe@example.com">
+                            </p>
+                        </section>
+                    </div>
+
+                    <div>
+                        <section class="titleGroup">
+                            <div class="circle">2</div>
+                            <p class="title">Your Payment Information</p>
+                        </section>
+                        <section class="FormSection">
+                            <p class="inner-content">
+                                <label for="creditCard">Credit Card</label>
+                            </p>
+                            <div class="card-input">
+                                <input type="text"
+                                       name="creditCard"
+                                       id="creditCard"
+                                       placeholder="Card Number">
+
+                                <input type="text"
+                                       name="creditCard"
+                                       id="creditCard"
+                                       placeholder="MM/YY">
+
+                                <input type="text"
+                                       name="creditCard"
+                                       id="creditCard"
+                                       placeholder="CVC">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <button type="submit">Buy WP Pusher</button>
+            </form>
+        </div>
+
+        <div class="payment-info">
+            <section class="titleGroup help">
+                <div class=" circle helpCircle">?</div>
+                <p class="title">Need any help?
+                    <span class="support">
+                        Don't hesitate to 
+                        <span class="contact">contact</span> support!
+                    </span>
+                </p>
+            </section>
+            <p>
+                <img src="asset/stripe-logo.png" alt="Powered by Stripe">
+            </p>
+        </div>
+    </section>
+
+    <aside class="side-bar">
+        <div>
+            <p>Freelancer</p>
+            <p>
+                <span class="dollar">$</span>
+                <span class="year">99 <sub>/&nbsp year</sub></span>
+            </p>
+            <p>Automatically renews <br>after 1 year</p>
+        </div>
+        <div>
+            <div class="list">
+                <i class="fa-regular fa-circle-check"></i>
+                <li>Use on <span>5</span> client sites</li>
+            </div>
+            <div class="list">
+                <i class="fa-regular fa-circle-check"></i>
+                <li>Private repositories</li>
+            </div>
+            <div class="list">
+                <i class="fa-regular fa-circle-check"></i>
+                <li>Email support</li>
+            </div>
+
+
+        </div>
+        <div class="client">
+            <p>Need<span> 20 </span>client sites? <br><strong> Switch to the Agency plan.</strong></p>
+        </div>
+        <div>
+            <blockquote>
+                <p>
+                    FTP is horrible to deal with. <span> <br>WP Pusher</span> solves that issue, and the customer
+                    support is
+                    awesome!
+                </p>
+                <div>
+                    <img class="avatar" src="asset/kirk.png" alt="Kirk Beard">
+                    <cite>Kirk Beard</cite>
+                </div>
+            </blockquote>
+        </div>
+    </aside>
+</main>
+<footer>
+    <p>&copy;2018 WP Pusher IVS. <a href="#">&nbsp; &nbsp;Terms of Service</a></p>
+</footer>
+</body>
+</html>
